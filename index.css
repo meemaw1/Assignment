@@ -1,0 +1,291 @@
+body{
+	font-family:Open Sans;
+	line-height: 30px;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+a:hover{
+	color:white;
+	text-decoration: none;
+	opacity:0.6;
+}
+.navbar{
+	padding:1% 2% 1% 2%;
+	top:0;
+	left:0;
+	position: fixed;
+	z-index:2;
+	width:100%;
+}
+.copyright-text{
+	font-size:14px;
+	opacity:0.5;
+	text-align: center;
+	margin-top:10%;
+}
+.card-title{
+	font-size:40px;
+	margin-left:-2%;
+	font-family: Open Sans Semibold;
+}
+.footer-title{
+	margin-left:0%;
+	margin-top:10%;
+}
+label{
+	font-weight: bold;
+}
+.footer-text{
+width:70%;
+}
+
+#signup{
+padding:10px 50px 10px 50px;
+}
+
+.navbar-brand{
+	font-family:Montserrat Black;
+}
+
+.card{
+	margin:0% 20% 0% 20%;
+}
+.top-gap{
+	margin-top:20%;
+}
+.hero_text{		
+	margin-top:5%;
+}
+
+.card{
+	border:none;
+}
+
+img{
+	border:none;
+}
+
+.title{
+	font-size:40px;
+}
+
+.btn{
+	border-radius: 0px;
+	padding:2% 5% 2% 5%;
+	font-family:Montserrat;
+	font-weight: bold;
+}
+
+.btn-outline-dark{
+	border-width: 3px;
+}
+
+#footer{
+	background-color:#2B2B2B;
+	padding:10%;
+	padding-bottom:2%;
+	margin:0;
+}
+
+.btn-dark{
+	padding:2% 5% 2% 5%;
+}
+
+
+
+.avatar{
+	margin-left:50%;
+	transform: translateX(-50%);
+}
+
+.testimony{
+	text-align: center;
+	font-style: italic;
+}
+.name{
+	text-align: right;
+	font-weight: bold;
+}
+
+.learn_more_text{
+	text-align: center;
+	margin:0 20% 0 20%;
+}
+
+.center-text{
+	text-align: center;
+	font-weight: bold;
+}
+
+#FAQ_button{
+	margin-left:50%;
+	transform: translateX(-50%);
+	width:300px;
+	margin-top:5%;
+}
+
+.carousel{
+	background-color: #F5F5F5;
+	padding:100px;
+}
+
+.nav-link{
+	font-family:Montserrat;
+	font-weight: bold;
+}
+
+.nav-item{
+	padding:0 40px 0 40px;
+}
+
+.navbar{
+	background-color:white;
+	box-shadow: 100px 30px rgba(0,0,0,10) 20px;
+}
+
+.content{
+	margin:0% 20% 0% 20%;
+}
+
+.testimony_card{
+	margin:0;
+}
+
+.testimonial-body{
+	margin:0% 20% 0% 20%;
+}
+
+#FAQ-title{
+	text-align: center;
+}
+
+
+#hero-card{
+	margin:0 20% 0 20%;
+}
+
+#mahan{
+	padding:5% 10% 5% 10%;
+	margin-top:10%;
+}
+
+.hero{
+	margin-top:5%;
+}
+
+#collection-text{
+	margin:10%;
+}
+
+.testimony-title{
+	margin:10%;
+}
+
+.carousel-control-next-icon{
+	filter:invert(1);
+}
+.carousel-control-prev-icon{
+	filter:invert(1);
+}
+
+@media only screen and (max-width: 1400px) {
+ .card{
+	margin:0% 2% 0% 2%;
+}
+.footer-text{
+width:100%;
+}
+.card-title{
+	font-size:32px;
+}
+.hero{
+	margin-top:10%;
+}
+.hero_text{
+	margin-top: 10%;
+}
+#hero-card{
+	margin:0 10% 0 10%;
+}
+
+#collection-text{
+	margin:10%;
+}
+.testimony-title{
+	margin:10%;
+}
+.testimonial-body{
+	margin:0% 0% 0% 0%;
+}
+.content{
+	margin:0% 2% 0% 2%;
+}
+.btn{
+	font-size:16px;
+}
+#FAQ_button{
+	width:250px;
+}
+.top-gap{
+	margin-top:20%;
+}
+.carousel{
+	padding:2%
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+ .card{
+	margin:0% 2% 0% 2%;
+}
+.card-title{
+	font-size:32px;
+}
+#hero-card{
+	margin:0 2% 0 2%;
+}
+#collection-text{
+	margin:2%;
+}
+.testimony-title{
+	margin:0%;
+}
+.testimonial-body{
+	margin:0% 0% 0% 0%;
+}
+.content{
+	margin:0% 2% 0% 2%;
+}
+.btn{
+	font-size:14px;
+}
+#FAQ_button{
+	width:200px;
+}
+.top-gap{
+	margin-top:40%;
+}
+.carousel{
+	padding:2%
+}
+.learn_more_text{
+	text-align: center;
+	margin:0 2% 0 2%;
+}
+.carousel-control-next-icon{
+	filter:invert(0);
+}
+.carousel-control-prev-icon{
+	filter:invert(0);
+}
+}
+
+
+@media only screen and (max-width: 400px) {
+#FAQ_button{
+	width:150px;
+}
+	}
